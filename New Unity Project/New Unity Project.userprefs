@@ -1,15 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HealthController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy.cs">
     <Files>
       <File FileName="Assets\Scripts\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy.cs" Line="11" Column="51" />
-      <File FileName="Assets\Scripts\HealthController.cs" Line="51" Column="23" />
-      <File FileName="Assets\Scripts\MenuIntro.cs" Line="14" Column="20" />
-      <File FileName="Assets\Scripts\Highscore.cs" Line="21" Column="17" />
-      <File FileName="Assets\Scripts\Scorecounter.cs" Line="18" Column="38" />
-      <File FileName="Assets\Scripts\enemy1.cs" Line="14" Column="2" />
-      <File FileName="Assets\Scripts\healthControllerEnemy.cs" Line="12" Column="31" />
+      <File FileName="Assets\Scripts\Enemy.cs" Line="11" Column="26" />
+      <File FileName="Assets\Scripts\HealthController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MenuIntro.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Highscore.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scorecounter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemy1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\healthControllerEnemy.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

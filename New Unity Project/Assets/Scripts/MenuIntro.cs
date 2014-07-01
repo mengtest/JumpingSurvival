@@ -11,7 +11,8 @@ public class MenuIntro : MonoBehaviour {
 		{
 			Application.LoadLevel(1);
 		}
-		GUI.Button (new Rect(10,70,100,50),"Highscore: "+highscore);
+		GUI.Label (new Rect(10,70,100,50),"Highscore: "+highscore);
+
 		if (GUI.Button (new Rect(10,130,100,50),"Exit"))
 		{
 			Application.Quit();

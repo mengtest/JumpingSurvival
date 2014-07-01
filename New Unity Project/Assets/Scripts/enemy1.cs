@@ -5,14 +5,16 @@ public class enemy1 : MonoBehaviour {
 	
 	public GameObject blueBox;
 	System.Random rand = new System.Random();
-	
+	static public float difficultyMultiplier = 2;
+
 	void Start () {
+		Highscore.SetDifficulty((int)difficultyMultiplier);
 		Spawn();
 	}
 	
 	
 	void Update () {
-		if (rand.NextDouble()<0.01){
+		if (rand.NextDouble()<0.02*difficultyMultiplier){
 			Spawn ();
 		}
 	}

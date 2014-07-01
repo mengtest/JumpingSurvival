@@ -300,10 +300,69 @@ ModelImporter:
     4300112: Sphere_cell_002
     4300114: Sphere_cell_001
     4300116: Sphere_cell
+    6400000: Sphere_cell
+    6400002: Sphere_cell_001
+    6400004: Sphere_cell_002
+    6400006: Sphere_cell_003
+    6400008: Sphere_cell_004
+    6400010: Sphere_cell_006
+    6400012: Sphere_cell_007
+    6400014: Sphere_cell_008
+    6400016: Sphere_cell_011
+    6400018: Sphere_cell_012
+    6400020: Sphere_cell_013
+    6400022: Sphere_cell_017
+    6400024: Sphere_cell_018
+    6400026: Sphere_cell_020
+    6400028: Sphere_cell_021
+    6400030: Sphere_cell_022
+    6400032: Sphere_cell_024
+    6400034: Sphere_cell_025
+    6400036: Sphere_cell_026
+    6400038: Sphere_cell_027
+    6400040: Sphere_cell_029
+    6400042: Sphere_cell_030
+    6400044: Sphere_cell_031
+    6400046: Sphere_cell_032
+    6400048: Sphere_cell_033
+    6400050: Sphere_cell_035
+    6400052: Sphere_cell_038
+    6400054: Sphere_cell_040
+    6400056: Sphere_cell_041
+    6400058: Sphere_cell_042
+    6400060: Sphere_cell_044
+    6400062: Sphere_cell_045
+    6400064: Sphere_cell_046
+    6400066: Sphere_cell_048
+    6400068: Sphere_cell_049
+    6400070: Sphere_cell_050
+    6400072: Sphere_cell_051
+    6400074: Sphere_cell_052
+    6400076: Sphere_cell_053
+    6400078: Sphere_cell_054
+    6400080: Sphere_cell_055
+    6400082: Sphere_cell_060
+    6400084: Sphere_cell_061
+    6400086: Sphere_cell_062
+    6400088: Sphere_cell_063
+    6400090: Sphere_cell_064
+    6400092: Sphere_cell_065
+    6400094: Sphere_cell_066
+    6400096: Sphere_cell_067
+    6400098: Sphere_cell_070
+    6400100: Sphere_cell_071
+    6400102: Sphere_cell_072
+    6400104: Sphere_cell_075
+    6400106: Sphere_cell_076
+    6400108: Sphere_cell_077
+    6400110: Sphere_cell_078
+    6400112: Sphere_cell_079
+    6400114: Sphere_cell_081
+    6400116: Sphere_cell_082
     7400000: Default Take
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -322,7 +381,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

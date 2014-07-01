@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour {
 	float velocityZ = 0;
 	float velocityX = 0;
 	Vector3 start = Vector3.zero;
-	float difficulty = 0.0001f;//enemy1.difficultyMultiplier;
+	float difficulty = enemy1.difficultyMultiplier*10;
 	
 	// Use this for initialization
 	void Start () {

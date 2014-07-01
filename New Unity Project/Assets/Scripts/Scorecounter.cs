@@ -15,8 +15,8 @@ public class Scorecounter : MonoBehaviour {
 	}
 	
 	public static void UpdateScore (int amount){
-		score += amount;
-		Debug.Log ("New Score: "+ score);
+		score += amount*Highscore.multipler;
+		//Debug.Log ("New Score: "+ score);
 	}
 	public static void ClearScore (){
 		score = 0;

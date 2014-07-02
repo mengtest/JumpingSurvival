@@ -4,6 +4,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 	
+	public float animationTime = 1;
 	public Material playerMat;
 	public Material playerMatJump;
 	public float gravity = 1;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 	bool inputJump = false;
 	public Vector3 moveDirection = Vector3.zero;
 	CharacterController characterController;
+	bool checkAnimation = false;
 	// Use this for initialization
 	void Start () {
 		characterController = GetComponent<CharacterController>();
@@ -75,9 +77,27 @@ public class PlayerController : MonoBehaviour {
 				velocityZ = 0;
 			}
 		}
+		if (velocityZ != 0 && !checkAnimation)
+		{
+			StartCoroutine(MoveAnimation());
+		}
+		else if (!checkAnimation)
+		{
+			animation.Stop();
+		}
+
 		moveDirection.z = velocityZ;
 		moveDirection.x = velocityX;
 		moveDirection.y -= gravity;
 		characterController.Move (moveDirection*Time.deltaTime);
+	}
+
+	IEnumerator MoveAnimation ()
+	{
+		checkAnimation = true;
+
+		animation.Play();
+		yield return new WaitForSeconds(animationTime);
+		checkAnimation = false;
 	}
 }

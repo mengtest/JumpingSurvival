@@ -32,7 +32,7 @@ public class HealthController : MonoBehaviour {
 			{
 				currentHealth = 0;
 				Highscore.CheckScore();
-				RestartScene ();
+				Application.LoadLevel(1);
 			}
 			else if (damageRecieved)
 			{
